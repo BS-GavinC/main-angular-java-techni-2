@@ -35,10 +35,7 @@ export class PokeService {
       }
     })
     )
-
   }
-
-
 }
 
 export const PokeResolver: ResolveFn<pokemon> =

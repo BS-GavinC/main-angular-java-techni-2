@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from 'src/app/shared/guards/auth/auth.guard';
-import { PokemonResolver } from 'src/app/shared/resolver/pokemon/pokemon.resolver';
 import { PokeResolver } from 'src/app/shared/services/poke/poke.service';
 import { CreateComponent } from './crud/create/create.component';
 import { DeleteComponent } from './crud/delete/delete.component';
